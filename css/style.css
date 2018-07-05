@@ -1,15 +1,17 @@
 /*-------ajustment--------*/
 
 html {
-    width: 100%;
+    /*width: 100%;*/
     height: 100%;
 }
 
 
 body {
     background: #f0f0f0;
-    width: 100%;
+    /*width: 100%;*/
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper {
@@ -49,4 +51,38 @@ body {
 
  /*-------header--------*/
 
- 
+ .header {
+    background: rgb(251,62,56); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(251,62,56,1) 0%, rgba(255,143,48,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(251,62,56,1) 0%,rgba(255,143,48,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(251,62,56,1) 0%,rgba(255,143,48,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
+    height: 154px;
+ }
+ .header_logo, .header_search, .header_menu {
+    float: left;
+     /*display: inline-block;*/
+ }
+
+.header_top:after, .header_top:before {
+    display: table;
+    content: "";
+ }
+
+ .header_top:after {
+     clear: both;
+ }
+
+ .header_logo {
+     width: 25%;
+ }
+ .header_search {
+     width: 40%;
+ }
+ .header_menu{
+     width: 35%;
+ }
+ .logo_pic {
+     max-width: 175px;
+     max-height: 55px;
+ }

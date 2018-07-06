@@ -66,6 +66,10 @@ body {
     float: left;
  }
 
+ .header_top {
+     padding: 20px;
+ }
+
 .header_top:after, .header_top:before {
     display: table;
     content: "";
@@ -106,7 +110,7 @@ body {
  .search_input {
     padding: 10px 40px 10px 35px;
     /* margin: 10px 40px 10px 35px;*/
-     background: rgba(255, 255, 255, 0.5);
+     background: rgba(255, 255, 255, 0.4);
      border: 0 none;
      border-radius: 50px;
      outline: none;
@@ -144,7 +148,7 @@ body {
  /*-----------menu-----------*/
 
 .menu_item {
-    display: inline-block
+    display: inline-block;
 }
 
 .menu {
@@ -152,14 +156,15 @@ body {
 }
 
 .menu:after {
-    content: '';
+    content: "";
     display: inline-block;
     width: 100%;
+    height: 0;
 
 }
 
 .menu_link {
-    padding: 5px;
+    padding: 8px;
     display: block;
 }
 
@@ -178,10 +183,10 @@ body {
 
 .menu_link-icon{
     position: absolute;
-    left: 15px;
+    left: 13px;
     top: 0;
     bottom: 0;
-    width: 20px;
+    width: 30px;
 }
 
 .menu_link-icon-pic {
